@@ -6,7 +6,10 @@ import {TbGridDots}from 'react-icons/tb';
 
 const Navbar = () => {
     const [active, setActive] = useState('navBar')
-//30.40
+    // Function to taggle navBar
+    const showNav = ()=>{
+        setActive('navBar activeNavbar')
+    }
     return(
         <section className="navbarSection">
             <header className="header felx">
