@@ -2,6 +2,15 @@ import React from "react";
 import './Home.css'
 import video from "../../Assets/video.mp4"
 import {GrLocation} from 'react-icons/gr'
+import {HiFilter} from 'react-icons/hi'
+import { TbMapPinMinus } from "react-icons/tb";
+import {FiFacebook} from 'react-icons/fi'
+import {AiOutlineInstagram} from 'react-icons/ai'
+import {SiTripadvisor} from 'react-icons/si'
+import {BsListTask} from 'react-icons/bs'
+import {TbApps} from 'react-icons/tb'
+
+
 const Home = () => {
     return(
         <section className="home">
@@ -51,6 +60,22 @@ const Home = () => {
                         </div>
                     </div>
 
+                    <div className="searchOptions flex">
+                        <HiFilter className="icon"/>
+                        <span>MORE FILTER</span>
+                    </div>
+
+                </div>
+                <div className="homeFooterIcon flex">
+                    <div className="rightIcons">
+                        <FiFacebook className="icon"/>
+                        <AiOutlineInstagram className="icon"/>
+                        <SiTripadvisor className="icon"/>
+                    </div>
+                    <div className="leftIcons">
+                        <BsListTask className="icon"/>
+                        <TbMapPinMinus className="icon"/>
+                    </div>
                 </div>
             </div>
         
