@@ -10,6 +10,11 @@ const Navbar = () => {
     const showNav = ()=>{
         setActive('navBar activeNavbar')
     }
+
+    // Function to remove navBar
+    const removeNavbar = ()=>{
+        setActive('navBar')
+    }
     return(
         <section className="navbarSection">
             <header className="header felx">
@@ -19,7 +24,7 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className={active}>
-                    <ul className="navLists flex">
+                    <ul className="navList flex">
                         <li className="navItem">
                             <a href="#" className="navLink">Home</a>
                         </li>
@@ -50,9 +55,12 @@ const Navbar = () => {
                             <AiFillCloseCircle  className="icon"/>
                         </div>
                     </ul>
+                    <div onClick={removeNavbar} className="closeNavbar">
+                        <AiFillCloseCircle className="icon"/>
+                    </div>
                 </div>
 
-                <div className="toggleNavbar">
+                <div onClick={showNav}  className="toggleNavbar">
                     <TbGridDots className="icon"/>
                 </div>
 
