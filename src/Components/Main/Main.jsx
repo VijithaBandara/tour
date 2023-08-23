@@ -1,6 +1,8 @@
 import React from "react";
 import './main.css'
 import img from '../../Assets/img(1).jpg'
+import { HiOutlineLocationMarker } from "react-icons/hi";
+import { HiOutlineClipboardCheck } from "react-icons/hi";
 const Data = [
     {
         id:1,
@@ -83,10 +85,40 @@ const Main = () => {
                         return(<div key={id}
                             className="singleDestination">
                                 {
-                                    <div className="ImageDiv">
-                                        <img src={} alt=""/>
-                                    </div>
+
                                 }
+                                    <div className="ImageDiv">
+                                        <img src={imgSrc} alt={destTitle}/>
+                                    </div>
+
+                                    <div className="cardInfo">
+                                        <h4 className="destTitle">
+                                            {destTitle}
+                                        </h4>
+                                        <span className="continent flex">
+                                            <HiOutlineLocationMarker className='icon' />
+                                        </span>
+                                        <span className="name">
+                                            {location}
+                                        </span>
+
+                                        <div className="fees flex">
+                                            <div className="grade">
+                                                <span>{grade}<small>+1</small></span>
+                                            </div>
+                                            <div className="price">
+                                                <h5>{fees}</h5>
+                                            </div>
+                                        </div>
+
+                                        <div className="desc">
+                                            <p>{description}</p>
+                                        </div>
+
+                                        <button className="btn flex"></button>
+                                            DETAILS <HiOutlineClipboardCheck className="icon"/>
+                                    </div>
+                                
                             </div>
                             )
                     })
