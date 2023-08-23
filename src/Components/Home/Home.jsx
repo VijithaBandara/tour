@@ -1,5 +1,5 @@
 import React from "react";
-import './Home.css'
+import './Home.scss'
 import video from "../../Assets/video.mp4"
 import {GrLocation} from 'react-icons/gr'
 import {HiFilter} from 'react-icons/hi'

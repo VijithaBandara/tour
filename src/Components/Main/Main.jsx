@@ -1,5 +1,5 @@
 import React from "react";
-import './main.css'
+import './Main.scss'
 import img from '../../Assets/img(1).jpg'
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { HiOutlineClipboardCheck } from "react-icons/hi";
