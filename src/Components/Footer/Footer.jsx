@@ -56,7 +56,7 @@ const Footer = () => {
                         {/* */}
                         <div className="linkGroup">
                             <span className="groupTitle">
-                                OUR AGENCY
+                                PARTNERS
                             </span>
                             <li className="footerList flex">
                                 <FiChevronRight className="icon"/>
@@ -77,6 +77,58 @@ const Footer = () => {
                             <li className="footerList flex">
                                 <FiChevronRight className="icon"/>
                                 Payment
+                            </li>
+                        </div>
+                       { /*l1 */}
+                        <div className="linkGroup">
+                            <span className="groupTitle">
+                                PARTNERS
+                            </span>
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Booking
+                            </li>
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Rentcars
+                            </li>
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                HostelWorld
+                            </li>
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Trivago
+                            </li>
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                TripAdvisor
+                            </li>
+                        </div>
+                        { /*l1 */}
+                        <div className="linkGroup">
+                            <span className="groupTitle">
+                                LAST MINUTE
+                            </span>
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                London
+                            </li>
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                California
+                            </li>
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Indonesia
+                            </li>
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Europe
+                            </li>
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Oceania
                             </li>
                         </div>
                     </div>
