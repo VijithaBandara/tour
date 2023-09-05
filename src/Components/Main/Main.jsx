@@ -1,6 +1,8 @@
 import React,{useEffect} from "react";
 import './Main.scss'
-import img from '../../Assets/img(1).jpg'
+import img from '../../Assets/img.jpg'
+import img1 from '../../Assets/img1.jpg'
+import img2 from '../../Assets/img2.jpg'
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { HiOutlineClipboardCheck } from "react-icons/hi";
 
@@ -11,62 +13,31 @@ const Data = [
     {
         id:1,
         imgSrc:img,
-        destTitle: 'Bora Bora',
         location:'New Zealand',
         grade:'CULTURAL RELAX',
         fees:'$700',
-        description:'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.'
+        description:'Hotel & Spa is a family-friendly hotel that offers a wide range of accommodation types, from rooms to suites. All this in the peaceful surroundings of our beautiful gardens, will make your time at (CN) an unforgettable holiday.'
     },
 
     {
         id:1,
-        imgSrc:img,
-        destTitle: 'Bora Bora',
-        location:'New Zealand',
-        grade:'CULTURAL RELAX',
-        fees:'$700',
-        description:'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.'
+        imgSrc:img1,
+        location:'New York',
+        grade:'Resort',
+        fees:'$770',
+        description:'offers you a privileged experience combining comfort and conviviality. Whether you are a backpacker, a solo traveler or with your family, our hotel with top-of-the-range service will meet all your expectations. More than just a hotel, offers you a place to live and meet people.'
     },
 
     {
         id:1,
-        imgSrc:img,
-        destTitle: 'Bora Bora',
-        location:'New Zealand',
-        grade:'CULTURAL RELAX',
-        fees:'$700',
-        description:'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.'
+        imgSrc:img2,
+        location:'Canada',
+        grade:'Sub Urban',
+        fees:'$750',
+        description:'welcomes you in a real cosmopolitan, pulsing milieu, at the same time offering peace and intimate retirement, just in the heart of the city centre. Timeless elegance tailored for the demands of our time; exceptional combination of magnificent architecture and divine cuisine, in perfect harmony. A Michelin-starred restaurant and a beautifully restored town palace joined forces for you!'
     },
 
-    {
-        id:1,
-        imgSrc:img,
-        destTitle: 'Bora Bora',
-        location:'New Zealand',
-        grade:'CULTURAL RELAX',
-        fees:'$700',
-        description:'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.'
-    },
-
-    {
-        id:1,
-        imgSrc:img,
-        destTitle: 'Bora Bora',
-        location:'New Zealand',
-        grade:'CULTURAL RELAX',
-        fees:'$700',
-        description:'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.'
-    },
-
-    {
-        id:1,
-        imgSrc:img,
-        destTitle: 'Bora Bora',
-        location:'New Zealand',
-        grade:'CULTURAL RELAX',
-        fees:'$700',
-        description:'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.'
-    },
+   
 ]
 
 

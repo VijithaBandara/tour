@@ -48,11 +48,7 @@ const Footer = () => {
                         </div>
 
                         <div data-aos="fade-up" className="footerParagraph">
-                            kytdyktjhkhfutilyiy
-                            dfbfbzdfbzdfbzdfbzfb
-                            sfgzsfbzdfbzdfbzdfb
-                            dfbzdfbxbfxhmghxd
-                            dfhzdfhzfdhzdfhzdhzdfh
+                        Step into a world of elegance and relaxation. Our hotel website invites you to explore the essence of hospitality, where every stay is a blend of comfort, convenience, and unforgettable experiences. Whether you're planning a business trip, a romantic getaway, or a family vacation.
                         </div>
 
                         <div data-aos="fade-up" className="footerSocials flex">

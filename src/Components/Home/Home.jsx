@@ -54,8 +54,7 @@ const Home = () => {
                             Select Your Date:
                         </label>
                         <div className="input flex">
-                            <input type="text" placeholder='Enter Name Here....'/>
-                            <GrLocation className="icon"/>
+                            <input type="text" placeholder='Enter Date Here....'/>
                         </div>
                     </div>
 

@@ -51,7 +51,7 @@
         align-items: stretch;
         justify-content: center;
         margin: auto;
-        color: var(--whiteColor);
+        color: rgb(35, 35, 128);
         z-index: 100;
 
         .textDiv{
@@ -118,7 +118,7 @@
             }
             .searchOptions{
                 position: absolute;
-                background: var(--gradientColor);
+                background:rgb(146, 213, 224);
                 width: max-content;
                 bottom: -0.7rem;
                 column-gap: .8rem;
