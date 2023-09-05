@@ -126,8 +126,9 @@ const Main = () => {
                                             <p>{description}</p>
                                         </div>
 
-                                        <button className="btn flex"></button>
+                                        <button className="btn flex">
                                             DETAILS <HiOutlineClipboardCheck className="icon"/>
+                                        </button>
                                     </div>
                                 
                             </div>

@@ -32,6 +32,7 @@ a{
 }
 
 li{
+  margin-right: 15px;
   list-style: none;
 }
 
@@ -61,7 +62,7 @@ grid{
 
 .btn{
   padding: .6rem 1.5rem;
-  background: var(--gradientColor);
+  background:black;
   border-radius: 3rem;
   border: none;
   outline: none;

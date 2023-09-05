@@ -66,7 +66,7 @@ const Footer = () => {
                         {/*l1*/}
                         <div data-aos="fade-up" data-aos-duration="3000" className="linkGroup">
                             <span className="groupTitle">
-                                PARTNERS
+                                OUR AGENCY
                             </span>
                             <li className="footerList flex">
                                 <FiChevronRight className="icon"/>

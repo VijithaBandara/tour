@@ -152,7 +152,7 @@
 
                 .icon{
                     color: var(--blackColor);
-                    font-size: 20px;
+                    font-size: 60px;
 
                     &:hover{
                         color: var(--PrimaryColor);
@@ -161,6 +161,8 @@
             }
 
             .footerLinks{
+                display: flex; 
+                flex-direction: row;
                 flex-basis: 50%;
                 width: 100%;
                 gap: 1rem;
